@@ -1,0 +1,16 @@
+{
+  "name": "nodewebkitdesktopapp",
+  "version": "1.0.0",
+  "description": "Creating Desktop App With Web Technologies - NW.js (node-webkit)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win64 --buildDir dist/ src/"
+  },
+  "author": "Stefan Ljiljak",
+  "license": "MIT",
+  "devDependencies": {
+    "nw": "^0.46.2-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
